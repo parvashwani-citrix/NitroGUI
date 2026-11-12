@@ -96,9 +96,9 @@ st.markdown("<div class='main-header'><h1>⚡ NetScaler Appliance Control Panel<
 
 # Sidebar Configuration
 st.sidebar.header("🔌 Connection settings")
-ns_ip = st.sidebar.text_input("NetScaler IP (NSIP)", value="10.14.12.103")
+ns_ip = st.sidebar.text_input("NetScaler IP (NSIP)", value="10.10.10.10")
 ns_username = st.sidebar.text_input("Username", value="nsroot")
-ns_password = st.sidebar.text_input("Password", type="password", value="Parv@4321")
+ns_password = st.sidebar.text_input("Password", type="password", value="MyPass")
 use_http = st.sidebar.checkbox("Use HTTP (Port 80)", value=False)
 
 if "nitro_token" not in st.session_state:
